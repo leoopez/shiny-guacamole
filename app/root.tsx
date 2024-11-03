@@ -38,6 +38,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Quicksand:wght@300..700&display=swap"
+          rel="stylesheet"
+        />
+
         <Meta />
         <Links />
       </head>

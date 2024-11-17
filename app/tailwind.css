@@ -104,7 +104,7 @@ body {
     .big-grid {
       display: grid;
       grid-template-columns: repeat(58, 12px);
-      grid-template-rows: repeat(48, 12px);
+      grid-template-rows: repeat(36, 12px);
     }
     .medium-grid {
       display: grid;

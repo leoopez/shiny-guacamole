@@ -191,26 +191,70 @@ export default function Index() {
             />
             <div className="col-start-14 row-start-30 row-span-8 col-span-3 border-b-4 border-l-4 border-black" />
           </div>
-          <div className="flex justify-around">
-            <div className="medium-grid p-4 font-light font-caviet text-xl text-slate-800 ">
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-6"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-26"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-2 row-start-12"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-16 row-start-12"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-26 row-start-18"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-6 row-start-28"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-32 row-start-28"></div>
-              <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-36 row-start-10"></div>
-            </div>
-            <div className="medium-grid p-4 font-light font-caviet text-xl text-slate-800 ">
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-18"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-10 row-start-12"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-4 row-start-24"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-16 row-start-22"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-26 row-start-10"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-32 row-start-20"></div>
-              <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-22 row-start-32"></div>
-            </div>
+          <div className="medium-grid p-4 font-light font-caviet text-xl text-slate-800 ">
+            <div className="bg-diagonal-pattern-orange rounded-[50%] row-start-1 col-span-5 row-span-5 col-start-6"></div>
+            <div className="col-start-6 row-start-6  col-span-1 row-span-6 border-l-4 border-black rotate-205" />
+            <div className="col-start-12 row-start-3  col-span-13 row-span-4 border-t-4 border-black" />
+            <div className="col-start-8 row-start-14  col-span-7 row-span-4 border-t-4 border-black" />
+            <div className="col-start-22 row-start-13  col-span-13 row-span-4 border-t-4 border-black -rotate-6" />
+            <div className="col-start-12 row-start-30  col-span-19 row-span-4 border-t-4 border-black" />
+            <div className="col-start-6 row-start-18  col-span-1 row-span-9 border-l-4 border-black -rotate-12" />
+            <div className="col-start-36 row-start-16  col-span-1 row-span-11 border-l-4 border-black rotate-12" />
+            <div className="col-start-34 row-start-4  col-span-1 row-span-6 border-l-4 border-black -rotate-50" />
+            <div className="col-start-11 row-start-25  col-span-15 row-span-1 border-t-4 border-black -rotate-22" />
+            <div className="col-start-31 row-start-16  col-span-5 row-span-1 border-t-4 border-black -rotate-40" />
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  row-start-1 col-span-5 row-span-5 col-start-26"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-2 row-start-12"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-16 row-start-12"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-26 row-start-18"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-6 row-start-28"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-32 row-start-28"></div>
+            <div className="bg-diagonal-pattern-orange rounded-[50%]  col-span-5 row-span-5 col-start-36 row-start-10"></div>
+          </div>
+          <div className="medium-grid p-4 font-light font-caviet text-xl text-slate-800 ">
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-18"></div>
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-10 row-start-12"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-13 row-start-9  col-span-3 row-span-3 -rotate-25"
+              alt=""
+            />
+            <div className="col-start-16 row-start-6 row-span-6 border-l-4 border-black rotate-35" />
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-4 row-start-24"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-7 row-start-21  col-span-3 row-span-3 -rotate-30"
+              alt=""
+            />
+            <div className="col-start-10 row-start-17 row-span-6 border-l-4 border-black rotate-25" />
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-16 row-start-22"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-15 row-start-19  col-span-3 row-span-3 rotate-30"
+              alt=""
+            />
+            <div className="col-start-15 row-start-17 row-span-4 border-l-4 border-black -rotate-30" />
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-26 row-start-10"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-21 row-start-29  col-span-3 row-span-3 rotate-30"
+              alt=""
+            />
+            <div className="col-start-21 row-start-27 row-span-4 border-l-4 border-black -rotate-30" />
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-32 row-start-20"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-31 row-start-17  col-span-3 row-span-3 rotate-30"
+              alt=""
+            />
+            <div className="col-start-31 row-start-15 row-span-4 border-l-4 border-black -rotate-30" />
+            <div className="bg-diagonal-pattern-green rounded-[50%]  col-span-5 row-span-5 col-start-22 row-start-32"></div>
+            <img
+              src="./triangle-svgrepo-com.svg"
+              className="col-start-24 row-start-7  col-span-3 row-span-3 rotate-12"
+              alt=""
+            />
+            <div className="col-start-24 row-start-5 row-span-5 border-l-4 border-black -rotate-45" />
           </div>
         </div>
       </div>

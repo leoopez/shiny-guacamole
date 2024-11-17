@@ -103,7 +103,7 @@ body {
     }
     .big-grid {
       display: grid;
-      grid-template-columns: repeat(64, 12px);
+      grid-template-columns: repeat(58, 12px);
       grid-template-rows: repeat(48, 12px);
     }
     .medium-grid {

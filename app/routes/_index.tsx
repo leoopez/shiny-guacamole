@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="bg-pattern ">
-      <header className="flex flex-col gap-6  min-h-screen">
+      <header className="flex flex-col gap-6 min-h-screen ">
         <nav className="flex justify-between items-center p-4 w-full">
           <ul className="flex gap-4 w-full justify-around">
             <div>

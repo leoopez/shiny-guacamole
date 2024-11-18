@@ -1,0 +1,10 @@
+import{r as i,j as t}from"./jsx-runtime-56DGgGmo.js";import{l as u,n as y,o as g,p as d,_ as x,O as w,M as j,L as S,S as k}from"./components-DCLLcppY.js";/**
+ * @remix-run/react v2.13.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */let a="positions";function M({getKey:s,...l}){let{isSpaMode:c}=u(),r=y(),p=g();d({getKey:s,storageKey:a});let h=i.useMemo(()=>{if(!s)return null;let e=s(r,p);return e!==r.key?e:null},[]);if(c)return null;let f=((e,m)=>{if(!window.history.state||!window.history.state.key){let o=Math.random().toString(32).slice(2);window.history.replaceState({key:o},"")}try{let n=JSON.parse(sessionStorage.getItem(e)||"{}")[m||window.history.state.key];typeof n=="number"&&window.scrollTo(0,n)}catch(o){console.error(o),sessionStorage.removeItem(e)}}).toString();return i.createElement("script",x({},l,{suppressHydrationWarning:!0,dangerouslySetInnerHTML:{__html:`(${f})(${JSON.stringify(a)}, ${JSON.stringify(h)})`}}))}const v=()=>[{rel:"preconnect",href:"https://fonts.googleapis.com"},{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:"anonymous"},{rel:"stylesheet",href:"https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"}];function I({children:s}){return t.jsxs("html",{lang:"en",children:[t.jsxs("head",{children:[t.jsx("meta",{charSet:"utf-8"}),t.jsx("meta",{name:"viewport",content:"width=device-width, initial-scale=1"}),t.jsx("link",{rel:"preconnect",href:"https://fonts.googleapis.com"}),t.jsx("link",{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:""}),t.jsx("link",{href:"https://fonts.googleapis.com/css2?family=Quicksand:wght@300..900&display=swap",rel:"stylesheet"}),t.jsx("link",{href:"https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Quicksand:wght@300..700&display=swap",rel:"stylesheet"}),t.jsx(j,{}),t.jsx(S,{})]}),t.jsxs("body",{children:[s,t.jsx(M,{}),t.jsx(k,{})]})]})}function R(){return t.jsx(w,{})}export{I as Layout,R as default,v as links};
